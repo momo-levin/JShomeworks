@@ -1,13 +1,13 @@
 // задание 1
 let num = 0;
 while (num < 51) {
-    console.log(num);
+    console.log(num);  // выводит числа от 0 до 50
     num++;
 }
 // задание 2
 for (let a = 0; a < 101; a++) {
     if (a % 2 === 0) {
-        console.log(a);
+        console.log(a);  // выводит все четные числа от 0 до 100 
     }
 }
 // задание 3
@@ -22,9 +22,9 @@ function ArrSum() {
     for (b = 0; b < newArrFirst.length; b++) {
         sum += newArrFirst[b];
     }
-    console.log('sum: ' + sum);  // вот для модального окна alert('sum: ' + sum);
+    console.log('sum: ' + sum);  // вот для модального окна alert('sum: ' + sum); п
 };                               // просто при любом обновлении оно бы появлялось
-ArrSum();
+ArrSum();                        // в итоге выведет sum: 210
 
 // по мне лучше так, как снизу, но домашка по циклам(
 /* function ArrSum() {
@@ -40,7 +40,7 @@ function degree() {
     for (let f = 1; f < 8; f++) {
         c *= 2;
     }
-    console.log(2 + ' в степени 8 = ' + c);
+    console.log('2 в степени 8 = ' + c);  // выведет 2 в степени 8 = 256
 };
 degree();
 // задание 5 не знаю как 
