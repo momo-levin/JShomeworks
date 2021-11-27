@@ -45,16 +45,15 @@ function degree() {
 degree();
 // задание 5 
 // возможно можно было сделать как-то легче, и я гуглил, но ничего не понял из того, что там предлагают 
-function aboba(number) {
+function largestDigit(number) {
     number = String(number);
     numberArr = Array.from(number);
-    var resultNumberArr = numberArr.map(item => {
+    numberArr.forEach(item => {
         return item = Number(item);
     });
-    var largestNumber = Math.max.apply(0, resultNumberArr);
-    console.log(largestNumber);  // вернет 9
+    console.log(Math.max.apply(0, numberArr));  // вернет 8
 }
-aboba(3714238490000000000098872n); 
+largestDigit(37142384000000000008872n); 
 
 // это то, что можно загуглить 
 // но я чутка не понял, как оно работает, и сделал какой-то костыль, который тоже работает 
