@@ -40,7 +40,7 @@ var arrTask3 = [1, 4, 2, 67, 34, 2, 50, 23, 11, 10, 5, 4, 9, 21];
 let resultArrTask3 = arrTask3.filter(item => {
         return item > 10;
 })
-console.log(resultArrTask3);  [67, 34, 50, 23, 11, 21]
+console.log(resultArrTask3); // [67, 34, 50, 23, 11, 21]
 
 // калькулятор 
 
