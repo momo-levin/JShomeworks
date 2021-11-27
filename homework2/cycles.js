@@ -43,7 +43,28 @@ function degree() {
     console.log('2 в степени 8 = ' + c);  // выведет 2 в степени 8 = 256
 };
 degree();
-// задание 5 не знаю как 
+// задание 5 
+// возможно можно было сделать как-то легче, и я гуглил, но ничего не понял из того, что там предлагают 
+function aboba(number) {
+    number = String(number);
+    numberArr = Array.from(number);
+    var resultNumberArr = numberArr.map(item => {
+        return item = Number(item);
+    });
+    var largestNumber = Math.max.apply(0, resultNumberArr);
+    console.log(largestNumber);  // вернет 9
+}
+aboba(3714238490000000000098872n); 
+
+// это то, что можно загуглить 
+// но я чутка не понял, как оно работает, и сделал какой-то костыль, который тоже работает 
+/* function maxDigit(k){
+    if(k == 0){ return 0;}
+    else{
+      return Math.max(k % 10, maxDigit(Math.floor(k / 10)));
+    }
+  }
+  console.log(maxDigit(16984)); */
 
 
 
