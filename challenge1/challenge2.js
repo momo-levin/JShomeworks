@@ -6,4 +6,4 @@ function fib(n) {
     }
     return result;
 }
-console.log(fib(10));
+console.log(fib(10016785));
