@@ -1,0 +1,23 @@
+.alert {
+    color:white;
+    background-color: red;
+    padding: 20px;
+}
+
+.even {
+    background-color: green;
+    list-style-type: none;
+}
+
+.odd {
+    background-color: blue;
+    list-style-type: none;
+}
+
+.white {
+    color: white;
+}
+
+.div-pos {
+    position: fixed;
+}
