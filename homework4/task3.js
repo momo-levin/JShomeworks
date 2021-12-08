@@ -8,7 +8,12 @@ function showMessage(message, background, top, left) {
     div.classList.add("div-pos")
     newArr1.push(div);
     for (c = 0; c < newArr1.length; c++) {
-        document.body.appendChild(newArr1[c]) 
+        if (newArr1.length > 3) {
+            let elem = newArr1.shift();
+            elem.remove();
+        } else {
+            document.body.appendChild(newArr1[c]) 
+        }
     }
 }
 
@@ -21,3 +26,4 @@ showMessage("sdfsdfsdf", "brown", 400, 300);
 showMessage("sdfsdfsdf", "green", 400, 400);
 showMessage("sdfsdfsdf", "blue", 400, 500);
 showMessage("sdfsdfsdf", "blue", 400, 600);
+showMessage("sdfsdfsdf", "blue", 400, 800);
