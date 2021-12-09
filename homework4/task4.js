@@ -4,12 +4,12 @@ var variableArr = [0];
 function dynamicList() {
     for (m = 0; m < Infinity; m++) {
         let l = prompt("Введите переменную");
-        if (typeof l === "object") {
+        if (l === null || l === "") {
             alert("Действие отменено")
             break
         } else {
             l = Number(l)
-            if(String(l) == "NaN" || l == "0") {
+            if(String(l) == "NaN") {
                 alert("Введите число") 
                 break
             } else {
