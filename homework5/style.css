@@ -1,0 +1,35 @@
+.nav {
+    font-size: 24px;
+    color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+#nav {
+    margin: 20px;
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    padding: 5px;
+    background-color: chocolate;
+}
+
+.modal-window  {
+    position: absolute;
+    top: 200px;
+    left: calc(50% );
+    background-color: chartreuse;
+    color: chocolate;
+    width: 100px;
+    
+}
+
+.block {
+    display: block;
+}
+
+.none {
+    display: none;
+}
