@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+}
+#formFirst, #formSecond, #formThird, #formFourth, #formFifth{
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+    margin-left: 40px;
+    background-color: turquoise;
+    padding: 10px;
+}
+#formFirst p, #formSecond p, #formThird p, #formFourth p, #formFifth p{
+    margin-top: 10px;
+}
+#formFirst input, #formSecond input, #formThird input, #formFourth input, #formFifth input{
+    margin-top: 10px;
+}
+
+#formFirst button, #formSecond button, #formThird button, #formFourth button, #formFifth button{
+    margin-top: 10px;
+}
+#formFifth textarea {
+    margin-top: 10px;
+}
