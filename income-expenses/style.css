@@ -1,0 +1,36 @@
+#formMoney {
+    padding: 10px;
+    background-color: lavender;
+    width: 20%;
+}
+#column1 {
+    height: 0;
+    width: 100px;
+    text-align: center;
+    background-color: greenyellow;
+}
+
+#column2 {
+    height: 0;
+    width: 100px;
+    text-align: center;
+    background-color: red;
+}
+
+.diagram {
+    display: flex;
+    margin: 20px;
+}
+.outcome {
+    height: 50px;
+    width: 20%;
+    background-color: khaki;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+#outcome {
+    font-size: 20px;
+}
+

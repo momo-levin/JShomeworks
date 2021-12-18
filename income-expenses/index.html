@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/income-expenses/style.css">
+    <script src="/income-expenses/task1.js" defer></script>
+    <title>Document</title>
+</head>
+<body>
+    <form action="" id="formMoney">
+        <input type="number" name="moneyValue">
+        <p><input type="radio" name="radio" id="income"><span> Доход</span></p> 
+        <p><input type="radio" name="radio" id="consumption"><span> Расход</span></p>
+        <button type="submit">Рассчитать</button>
+    </form>
+    <div class="outcome">
+        <p id='outcome'>0$</p>
+    </div>
+    <div class="diagram"> 
+        <div id="column1">Доход
+            <p id="column1Value"></p>
+        </div>
+        <div id="column2">Расход
+            <p id="column2Value"></p>
+        </div>
+    </div>
+</body>
+</html>
