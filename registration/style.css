@@ -1,0 +1,33 @@
+#addPerson {
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: blueviolet;
+    
+}
+.modalWindow {
+    width: 20%;
+    padding: 10px;
+    background-color:aquamarine;
+    position: absolute;
+    left: calc(50% - 10%);
+}
+#formModal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} 
+#formModal button {
+    margin-top: 10px;
+    width: 100%;
+    padding: 10px;
+}
+.block {
+    display: block;
+}
+.none {
+    display: none;
+}
+#formModal input {
+    width: 80%;
+    padding: 10px;
+}
