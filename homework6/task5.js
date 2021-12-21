@@ -3,7 +3,7 @@ document.getElementById('phoneNumber').setAttribute('maxlength', "13");
 const submitFormFifth = (e) => {
     let elemForm = e.target.elements;
     
-    let obj = {
+    let obj = { //сделай деструктуризацию
         name: elemForm['name'].value,
         surname: elemForm['surname'].value,
         phoneNumber: elemForm['phoneNumber'].value,
