@@ -14,3 +14,4 @@ function strangeSum(n){
     console.log(n)
 }
 strangeSum(34134); // 
+//или оставляй нормальный комментарий,или никакого
