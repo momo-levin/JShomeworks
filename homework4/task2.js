@@ -12,7 +12,7 @@ function charRepeats(str) {
 let newArr = ["Viktor", "Tatiana", "Eduard", "Michael", "Denis", "Peter", "Ann", "Dmitry", "Sergey", "Ivan", "Alan"];
 let ol = document.createElement("ol");
 document.body.append(ol);
-for (let i = 0; i < 11; i++) {
+for (let i = 0; i < 11; i++) { //почему 11, а не newArr.length?
     let li = document.createElement("li");
     li.innerText = (newArr[i]);
     if (i % 2 == 1) {
