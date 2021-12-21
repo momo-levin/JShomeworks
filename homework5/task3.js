@@ -1,4 +1,4 @@
-function drawFigure(type, color, top, left, width, height) {
+function drawFigure(type, color, top, left, width, height) {//что на тему "вынести общее за скобки?
     if (type == "круг") {
         let div = document.createElement('div');
         div.style.background = color;
@@ -29,7 +29,7 @@ function drawFigure(type, color, top, left, width, height) {
         document.body.appendChild(div);
     }
 }
-function addFigure(e) {
+function addFigure(e) {//что на тему "вынести общее за скобки?
     if (e.code == "KeyQ") {
         let div = document.createElement('div');
         div.style.background = 'red';
