@@ -1,7 +1,7 @@
 const ul = document.createElement("ul");
 document.body.appendChild(ul);
 var variableArr = [0];
-function dynamicList() {
+function dynamicList() { //что за название?
     for (m = 0; m < Infinity; m++) {
         let l = prompt("Введите переменную");
         if (l === null || l === "") {
